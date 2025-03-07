@@ -6,6 +6,7 @@ class ProductsController < ApplicationController
       @products = Product.includes(:category).all
     end
     end
- 62cce77 (Generated Products controller with index action)
+ (Generated Products controller with index action)
+ (Updated routes, index action, and index view)
   end
 end
