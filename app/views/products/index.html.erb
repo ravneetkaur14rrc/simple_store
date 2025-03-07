@@ -4,4 +4,7 @@
     <li><%= link_to product.title, product_path(product) %> - $<%= product.price %></li>
   <% end %>
   <%= link_to product.title, product_path(product) %>
+  <% @products.each do |product| %>
+    <li><%= link_to product.title, product_path(product) %> - $<%= product.price %> (Category: <%= product.category.name %>)</li>
+  <% end %>
 </ul>
