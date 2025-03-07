@@ -8,5 +8,7 @@ class ProductsController < ApplicationController
     end
  (Generated Products controller with index action)
  (Updated routes, index action, and index view)
+    end
+(Added show action/view for Products)
   end
 end
